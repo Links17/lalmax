@@ -1,4 +1,4 @@
-FROM golang:1.18.9
+FROM golang:1.21.0
 ENV GOPROXY=https://goproxy.cn,https://goproxy.io,direct
 LABEL maintainer="Kevin Zang"
 
